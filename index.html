@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-  <h1 class="a">bhakti</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(29, 9, 53);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(0, 0, 0);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover{
+        color: rgb(165, 165, 243);
+        font-size: 1.01rem;
+
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0;
+      }
+      .firstSection > div {
+        width: 40%;
+      }
+
+      .leftSection {
+        font-size: 1.5rem;
+        margin: 60px 0;
+        
+      }
+      
+      .rightSection img {
+        width: 120%;
+        height: fit-content;
+        float: left;
+      }
+      .purple{
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">BHAKTI MEJARI</div>
+        <div class="right">
+          <ul>
+            <li> <a href="index.html">Home</a</li>
+            <li><a href="/">Skills</a></li>
+            <li><a href="/">Resume</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          <h1> Hi! My Name is<span class="purple"> Bhakti Mejari</span>.</h1>
+          <div>
+            My portfolio is a representation of all that I've learned and acoomplished as software enginerring student.
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="./images/img2.png" alt="">
+        </div>
+      </section>
+    
+    </main>
+  </body>
 </html>
