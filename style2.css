@@ -1,0 +1,76 @@
+/* table,th,td{
+    border: 2px solid rgb(255, 254, 254);
+    border-collapse: collapse;
+    margin-bottom: 40%;
+}
+table{
+    width: 100%;
+}
+th{
+    width: 20%;
+}
+td{
+    width:20%;
+} */
+
+.card1{
+    border-radius:7px;
+    box-shadow: 0 0 3px 3px #f3f3f3;
+    overflow: hidden;
+    margin-left: 70px;
+    height: 350px;
+    width: 500px;
+}
+.card2{
+    border-radius:7px;
+    box-shadow: 0 0 3px 3px #f3f3f3;
+    overflow: hidden;
+    margin-left: 190px;
+    height: 350px;
+    width: 500px;
+}
+.card3{
+    border-radius:7px;
+    box-shadow: 0 0 3px 3px #f3f3f3;
+    overflow: hidden;
+    margin-left: 70px;
+    height: 350px;
+    width: 500px;
+    
+}
+.card4{
+    border-radius:7px;
+    box-shadow: 0 0 3px 3px #f3f3f3;
+    overflow: hidden;
+    margin-left: 60px;
+    height: 350px;
+    width: 500px;
+}
+.card_header{
+    padding:2rem 3rem;
+    text-align: center;
+    font-size: larger;
+}
+.card_body{
+    padding:2rem 3rem;
+    justify-content: center;
+}
+.card--primary .card_header{
+background-color:rgb(7, 7, 7);
+color: rgb(240, 236, 236);
+}
+.card--primary .card_body{
+    background-color:rgba(245, 245, 245, 0.37);
+    color: rgb(247, 243, 243);
+    height: 500px;
+}
+.secondSection{
+  display: flex;
+  justify-content: space-around;
+  margin: 90px 0;
+}
+.thirdSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 0;
+  }
