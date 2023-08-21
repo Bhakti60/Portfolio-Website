@@ -4,11 +4,13 @@
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
     <style>
       * {
         margin: 0;
@@ -25,19 +27,18 @@
             <li> <a href="/">Home</a</li>
             <li><a href="#2">Skills</a></li>
             <li><a href="./cv/BHAKTI-CV.pdf">Resume</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Contact Me</a></li>
+            <li><a href="#3">Contact Me</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <section id="1" class="firstSection"></a>
+      <section id="1" class="firstSection">
         <div class="leftSection">
           <h1> Hi! My Name is<span class="purple"> Bhakti Mejari</span>.</h1>
           <div>
-            My portfolio is a representation of all that I've learned and acoomplished as software enginerring student.
-          </div>
+            <span id="element"></span>
+         </div>
         </div>
         <div class="rightSection">
           <img src="./images/img2.png" alt="">
@@ -45,7 +46,7 @@
       </section>
       
       <hr>
-    <section id="2"class="secondSection">
+    <section id="2" class="secondSection">
         <div style="width:45%">
             <div class="card1 card--primary">
                 <header class="card_header"><b>JAVA</b></header>
@@ -103,6 +104,38 @@
             </div>
         </div>  
     </section>
+    <hr>
+    <section id="3" class="fourthSection">
+        <div class="fourleftSection">
+        <img src="./images/WhatsApp Image 2023-08-21 at 18.12.01.jpg" alt="">
+        </div> 
+        <div class="fourrightSection">
+        My name is Bhakti Mejari.I am a dedicated and organized individual. I have good interpersonal skills and I am an excellent team worker and am keen and very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
+        <br><br>
+        <div>
+            <h1 class="h1class">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </h1>
+        </div>
+        <br>
+        <div class="contact">
+            Contact no: 7045474882<br>
+            Email id: bhaktimejari22@gmail.com
+        </div>
+        <br>
+        <div class="iconclass">
+            <a href="https://www.linkedin.com/in/bhakti-mejari-5428371a4/"> <i class="fa fa-linkedin" aria-hidden="true"></i></a> &nbsp;&nbsp;
+            <a href="https://github.com/Bhakti60"><i class="fa fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;
+            <a href="mailto:bhaktimejari22@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        </div>
+    </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['My portfolio is a representation of all that I have learned and accomplished as software engineering student.'],
+          typeSpeed: 50,
+        });
+      </script>
   </body>
 </html>
